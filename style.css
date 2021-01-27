@@ -46,7 +46,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     width: 100%;
 }
 .hero-section .card-container .profile-card img{

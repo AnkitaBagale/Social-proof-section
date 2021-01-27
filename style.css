@@ -1,0 +1,139 @@
+:root{
+    --vdmagenta: hsl(300, 43%, 22%);
+    --pink: hsl(333, 80%, 67%);
+    --dgmagenta: hsl(303, 10%, 53%);
+    --lgmagenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+body{
+    min-height: 100vh;
+    /* background: center/cover url("/design/desktop-design.jpg") no-repeat; */
+    max-width: 1050px;
+    width: 100%;
+    margin: auto;
+    padding: 4rem 2rem;
+
+}
+
+*{
+    font-family: 'Spartan', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* hero section */
+h1{
+    color: var(--vdmagenta);
+}
+
+.hero-text-section p{
+    color: var(--dgmagenta);
+}
+
+.hero-section .star-card-section .profile-card{
+    background-color: var(--lgmagenta);
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    width: 90%;
+}
+.hero-section{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.hero-section .card-container .profile-card img{
+    padding: 0 2px;
+    height: 12px;
+}
+.hero-section .card-container .profile-card span{
+    color: var(--vdmagenta);
+    font-weight: 700;
+    font-size: 12px;
+    padding-left: 1rem;
+}
+.hero-section .hero-text-section{
+    width: 40%;
+}
+
+.hero-section .hero-text-section h1{
+    font-size: 40px;
+}
+.hero-section .hero-text-section p{ 
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-top: 0.5rem;
+}
+.hero-section .star-card-section{
+    width: 50%;
+}
+
+/* reviews-section */
+.profile-card{
+    background-color: var(--vdmagenta);
+    color: var(--lgmagenta);
+    padding: 2rem;
+    width: 31%;
+    border-radius: 0.5rem;    
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.profile-card-section{
+    width: 100%;
+}
+
+.profile-image{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+}
+.profile-image img{
+    width: 40px;
+    height: 40px;
+}
+.profile-info{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.text-section{
+    padding: 0 1.5rem;
+}
+.text-section h3{
+    font-size: 13px;
+}
+.text-section p{
+    color: var(--pink);
+    font-size: 13px;
+    padding-top: 4px;
+}
+.comment-section p{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.profile-card-section .profile-card:nth-of-type(2){
+    margin-top: 1rem;
+}
+.profile-card-section .profile-card:nth-of-type(3){
+    margin-top:2rem;
+}
+
+.star-card-section .profile-card:nth-of-type(2){
+    margin-left:5%;
+}
+.star-card-section .profile-card:nth-of-type(3){
+    margin-left:10%;
+}
+
+
+@media screen and (max-width: 375px){
+
+}

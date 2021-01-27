@@ -7,7 +7,7 @@
 }
 body{
     min-height: 100vh;
-    /* background: center/cover url("/design/desktop-design.jpg") no-repeat; */
+    background: url("./images/bg-pattern-top-desktop.svg") top left no-repeat,url("./images/bg-pattern-bottom-desktop.svg") bottom right no-repeat;
     max-width: 1050px;
     width: 100%;
     margin: auto;
@@ -136,6 +136,9 @@ h1{
 
 
 @media screen and (max-width: 767px){
+    body{
+        background: url("./images/bg-pattern-top-mobile.svg") top left no-repeat,url("./images/bg-pattern-bottom-mobile.svg") bottom right no-repeat;
+    }
     .hero-section .hero-text-section h1{
         font-size: 32px;
         margin-left: 1rem;
